@@ -7,6 +7,8 @@ Requirements:
 
 This single cell RNAseq quality control pipeline uses 3 tools - DropletQC for identifying empty droplets, SoupX to estimate ambient RNA in cells, Scrublet for identifying doublets.
 
+Input: Cell Ranger's output directory
+
 
 To run the python scripts and generate output you need to run the following command:
 If you want to use DropletQC, SoupX and Scrublet to filter empty droplets, ambient RNA, doublets followed by filtering of low quality cells (damaged cells) use the command below:
