@@ -3,6 +3,7 @@
 Requirements:
 1. Linux OS
 2. Python version 3.x
+3. R version >= 4.0.0
 
 This single cell RNAseq quality control pipeline uses 3 tools - DropletQC for identifying empty droplets, SoupX to estimate ambient RNA in cells, Scrublet for identifying doublets.
 
